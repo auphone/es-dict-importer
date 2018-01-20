@@ -1,0 +1,23 @@
+{
+  "freq_words": {
+    "mappings": {
+      "freq_words": {
+        "properties": {
+          "word": { "type": "keyword" },
+          "length": { "type": "integer" },
+          "freq_hal": { "type": "integer" }
+        }
+      }
+    }
+  },
+  "eng_dict": {
+    "mappings": {
+      "dict_zh": {
+        "properties": {
+          "word": { "type": "keyword" },
+          "translation": { "type": "keyword" }
+        }
+      }
+    }
+  }
+}

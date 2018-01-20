@@ -1,0 +1,17 @@
+{
+  "name": "dict-importer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "auphone",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "csv": "^2.0.0",
+    "elasticsearch": "^14.0.0",
+    "lodash": "^4.17.4"
+  }
+}
